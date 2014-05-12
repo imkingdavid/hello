@@ -10,7 +10,9 @@ Into this:
 
 ![after hello](http://i.imgur.com/KVEUF71.png "after hello")
 
-Note that this only works for Prosilver. subSilver2 does not have the username in the navigation bar and therefore does not have the events.
+**Important Notes**
+- This extension requires the template events added in https://github.com/phpbb/phpbb/pull/2448. Until that is merged, you will need to apply the patch manually in order for the extension to work.
+- Note that this only works for Prosilver. subSilver2 does not have the username in the navigation bar and therefore does not have the events.
 
 If there is interest, future versions may contain the following:
 - Customizable via the ACP
